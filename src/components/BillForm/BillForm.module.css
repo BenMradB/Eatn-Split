@@ -1,0 +1,47 @@
+.form {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 61px;
+}
+
+.form h1 {
+    font-size: 22px;
+    text-transform: uppercase;
+}
+
+.form h1 span {
+    color: #ff922b;
+}
+
+.form div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.form div input,
+.form div select {
+    font-size: 15px;
+    font-weight: bold;
+    padding-left: 15px;
+    width: 50%;
+    height: 30px;
+    outline: none;
+    border-radius: 6px;
+    border: 1px solid #edcfa9;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.form div input:focus,
+.form div select:focus {
+    border: 1px solid #ff922b;
+}

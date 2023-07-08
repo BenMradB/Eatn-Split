@@ -1,0 +1,54 @@
+.friend {
+    cursor: pointer;
+    list-style: none;
+    padding: 15px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 6px;
+    transition: all 0.4s ease-in-out;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+}
+
+.friend:hover {
+    background-color: #ffa94d4e;
+}
+
+
+
+.friend .left {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.friend .left img {
+
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.friend .left div {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.owesYou {
+    color: red;
+}
+
+.owesHim {
+    color: green;
+}

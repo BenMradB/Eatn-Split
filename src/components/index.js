@@ -1,0 +1,6 @@
+export { default as Box } from './Box/Box'
+export { default as FriendsList } from './FriendsList/FriendsList'
+export { default as FriendItem } from './FriendItem/FriendItem'
+export { default as BillForm } from './BillForm/BillForm'
+export { default as AddFriendForm } from './AddFriendForm/AddFriendForm'
+export { default as Button } from './Button/Button' 

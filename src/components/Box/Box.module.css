@@ -1,0 +1,12 @@
+.box {
+    width: 500px;
+    min-height: 540px;
+    box-shadow: 1px 1px 20px #c9c9c9 inset;
+    padding: 25px;
+    position: relative;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}

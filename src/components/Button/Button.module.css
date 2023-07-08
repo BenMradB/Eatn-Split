@@ -1,0 +1,39 @@
+.btn {
+    border: none;
+    outline: none !important;
+    background-color: #ffa94d;
+    padding: 10px 15px;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    color: #000;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+}
+
+.btn:hover {
+    background-color: #ff922b;
+}
+
+/* This '.add' class is the one who responsible on showing or hiding the add friend forom  */
+.add {
+    position: absolute;
+    bottom: 25px;
+    right: 25px;
+}
+
+/* this 'addFriend  id the one who responsible of adding the friend to the list*/
+.addFriend {
+    position: absolute;
+    bottom: 12px;
+    right: 12px;
+    padding: 8px 96px;
+}
